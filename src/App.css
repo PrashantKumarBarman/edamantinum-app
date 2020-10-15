@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Roboto;
+  src: url('./fonts/Roboto/Roboto-Regular.ttf');
+}
+
+a {
+  font-family: 'Roboto';
+}
+
+.default {
+  margin: 2px;
+}
+
+.resource-container {
+  position: relative;
+  margin: 2vh 10vw;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px 0 #00000033, 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.resource-container:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.topic-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.topic {
+  font-family: 'Roboto';
+  color: Chocolate;
+  background-color: Beige;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: calc(1em + 5px);
+}
+
+.resourcelist {
+  padding: 0px;
+}
+
+.resource-url {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: CornflowerBlue;
+  background-color: AntiqueWhite;
+}
+
+.resource-url:link {
+  text-decoration: none;
+  padding: 1px 20px;
+  border-radius: 1em;
+}
+
+.g1 {
+  /* eXpresso */
+  background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ad5389, #3c1053); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ad5389, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.g2 {
+  /* Pun Yeta */
+  background: #108dc7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #108dc7, #ef8e38); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #108dc7, #ef8e38); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.g3 {
+  /* Orange Coral */
+  background: #ff9966; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff9966, #ff5e62); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff9966, #ff5e62); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.g4 {
+  /* Alive */
+  background: #cb356b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cb356b, #bd3f32); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #cb356b, #bd3f32); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.g5 {
+  /* Meridian */
+  background: #283c86; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #283c86, #45a247); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #283c86, #45a247); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.g6 {
+  /* Crimson Tide */
+  background: #642b73; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #642b73, #c6426e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #642b73, #c6426e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.g7 {
+  /* Socialive */
+  background: #06beb6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #06beb6, #48b1bf); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #06beb6, #48b1bf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.g8 {
+  /* Scooter */
+  background: #36d1dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #36d1dc, #5b86e5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #36d1dc, #5b86e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.g9 {
+  /* Mello */
+  background: #c0392b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #c0392b, #8e44ad); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c0392b, #8e44ad); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.g10 {
+  /* Crystal Clear */
+  background: #159957; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #159957, #155799); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #159957, #155799); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
